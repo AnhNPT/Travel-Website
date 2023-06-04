@@ -8,18 +8,21 @@ module.exports = {
         extend: {
             fontFamily: {
                 jua: ["Jua", "sans-serif"],
-                outfit: ["Outfit Variable", "san-serif"]
+                outfit: ["Outfit Variable", "san-serif"],
             },
             colors: {
                 1: "#263238",
                 2: "#75A3C8",
                 3: "#90CAF9",
                 4: "#BCDFFB",
-                5: "#DDEFFD"
+                5: "#DDEFFD",
             },
             backgroundImage: {
-                'illust-2': "url('/image/illust-2.svg')",
-              }
+                "illust-2": "url('/image/illust-2.svg')",
+            },
+            dropShadow: {
+                "custom-1": "0px 4px 15px rgba(0, 0, 0, 0.15)",
+            },
         },
     },
     plugins: [],
