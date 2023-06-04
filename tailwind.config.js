@@ -8,6 +8,7 @@ module.exports = {
         extend: {
             fontFamily: {
                 jua: ["Jua", "sans-serif"],
+                outfit: ["Outfit Variable", "san-serif"]
             },
             colors: {
                 1: "#263238",
@@ -16,6 +17,9 @@ module.exports = {
                 4: "#BCDFFB",
                 5: "#DDEFFD"
             },
+            backgroundImage: {
+                'illust-2': "url('/image/illust-2.svg')",
+              }
         },
     },
     plugins: [],
