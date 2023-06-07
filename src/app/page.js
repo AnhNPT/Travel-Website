@@ -7,6 +7,7 @@ import Banner from "@/components/homepage/banner.js";
 import ReadyToTravel from "@/components/homepage/readyToTravel";
 import PopularTrip from "@/components/homepage/popularTrip";
 import { useState } from "react";
+import OurExperience from "@/components/homepage/ourExperience";
 
 export default function Homepage() {
     const tripType = {
@@ -25,7 +26,7 @@ export default function Homepage() {
             <Banner></Banner>
             <ReadyToTravel></ReadyToTravel>
             <PopularTrip tripType={tripname} changeTrip={changeTripName}></PopularTrip>
-            
+            <OurExperience></OurExperience>
         </>
     );
 }

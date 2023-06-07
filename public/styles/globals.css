@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-linear {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 60.25%, #BCDFFB 85.97%);
+    mix-blend-mode: normal;
+    filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.1));
+}
