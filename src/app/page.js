@@ -8,6 +8,9 @@ import ReadyToTravel from "@/components/homepage/readyToTravel";
 import PopularTrip from "@/components/homepage/popularTrip";
 import { useState } from "react";
 import OurExperience from "@/components/homepage/ourExperience";
+import Testimonials from "@/components/homepage/testimonials";
+import EndBanner from "@/components/homepage/endBanner";
+import Footer from "@/components/footer";
 
 export default function Homepage() {
     const tripType = {
@@ -27,6 +30,9 @@ export default function Homepage() {
             <ReadyToTravel></ReadyToTravel>
             <PopularTrip tripType={tripname} changeTrip={changeTripName}></PopularTrip>
             <OurExperience></OurExperience>
+            <Testimonials></Testimonials>
+            <EndBanner></EndBanner>
+            <Footer></Footer>
         </>
     );
 }
